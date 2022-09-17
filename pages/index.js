@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head';
 import Image from 'next/image';
 
@@ -5,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Mark Landeryou Personal Portfolio</title>
+        <title>Mark Landeryou's Personal Portfolio</title>
         <meta
           name='description'
           content='Mark Landeryou Personal Portfolio from Sarnia Ontario Canada'
