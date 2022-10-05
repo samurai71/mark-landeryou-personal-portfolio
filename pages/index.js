@@ -1,37 +1,26 @@
-/* eslint-disable react/no-unescaped-entities */
 import Head from 'next/head';
-import Image from 'next/image';
+import About from '../components/About';
+import Contact from '../components/Contact';
+import Main from '../components/Main';
+import Projects from '../components/Projects';
+import Skills from '../components/Skills';
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Mark | Personal Portfolio</title>
+        <title>Mark | Front-End Developer</title>
         <meta
           name='description'
-          content='Mark Landeryou Personal Portfolio from Sarnia Ontario Canada'
+          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
-        {/* <link rel='icon' href='/favicon.ico' /> */}
+        <link rel='icon' href='/fav.png' />
       </Head>
-
-      <main>
-        <h1 className='container mt-3 text-center font-serif text-6xl font-bold text-blue-600'>
-          Mark Landeryou's Portfolio
-        </h1>
-      </main>
-
-      <footer className='mt-3 text-center underline'>
-        <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Powered by{' '}
-          <span>
-            <Image src='/vercel.svg' alt='Vercel Logo' width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
   );
 }
