@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Mark Personal Portfolio</title>
+        <title>Mark `Personal Portfolio</title>
         <meta
           name='description'
           content='Mark Landeryou Personal Portfolio from Sarnia Ontario Canada'
