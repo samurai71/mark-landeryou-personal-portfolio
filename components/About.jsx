@@ -44,7 +44,11 @@ const About = () => {
           </Link>
         </div>
         <div className='m-auto flex h-auto w-full items-center justify-center rounded-xl p-4 shadow-xl shadow-gray-400 duration-300 ease-in hover:scale-105'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
+          <Image
+            src={AboutImg}
+            className='rounded-xl'
+            alt='Mark Landeryou Picture'
+          />
         </div>
       </div>
     </section>

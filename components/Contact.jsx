@@ -21,7 +21,7 @@ const Contact = () => {
                 <Image
                   className='rounded-xl duration-300 ease-in hover:scale-105'
                   src={ContactImg}
-                  alt='/'
+                  alt='Person Typing on a laptop'
                 />
               </div>
               <div>
