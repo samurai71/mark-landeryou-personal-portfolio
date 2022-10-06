@@ -121,10 +121,7 @@ const Contact = () => {
           <Link href='/'>
             <a>
               <div className='cursor-pointer rounded-full p-4 shadow-lg shadow-gray-400 duration-300 ease-in hover:scale-110'>
-                <HiOutlineChevronDoubleUp
-                  className='text-[#5651e5]'
-                  size={30}
-                />
+                <HiOutlineChevronDoubleUp className='text-blue-600' size={30} />
               </div>
             </a>
           </Link>

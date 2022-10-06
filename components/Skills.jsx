@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <section id='skills' className='w-full p-2 lg:h-screen'>
       <div className='mx-auto flex h-full max-w-[1240px] flex-col justify-center'>
-        <p className='text-xl uppercase tracking-widest text-[#5651e5]'>
+        <p className='text-xl uppercase tracking-widest text-blue-700'>
           Skills
         </p>
         <h2 className='py-4'>What I Can Do</h2>
