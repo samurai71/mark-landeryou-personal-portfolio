@@ -36,6 +36,6 @@ html {
   }
 
   button {
-    @apply rounded-xl bg-gradient-to-r from-[#5651e5] to-[#709dff] uppercase text-white shadow-xl shadow-gray-400;
+    @apply rounded-xl bg-gradient-to-r from-blue-700 to-[#709dff] uppercase text-white shadow-xl shadow-gray-400;
   }
 }
