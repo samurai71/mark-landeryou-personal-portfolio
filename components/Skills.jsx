@@ -8,6 +8,7 @@ import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github1.png';
 import Firebase from '../public/assets/skills/firebase.png';
 import NextJS from '../public/assets/skills/nextjs.png';
+import NodeJS from '../public/assets/skills/node.png';
 import AWS from '../public/assets/skills/aws.png';
 
 const Skills = () => {
@@ -97,6 +98,61 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Next</h3>
+              </div>
+            </div>
+          </div>
+          <div className='rounded-xl p-6 shadow-xl duration-300 ease-in hover:scale-105'>
+            <div className='grid grid-cols-2 items-center justify-center gap-4'>
+              <div className='m-auto'>
+                <Image src={NodeJS} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Node</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 className='py-4'>Back-End Skills</h3>
+        <div className='grid grid-cols-2 gap-8 lg:grid-cols-4'>
+          <div className='rounded-xl p-6 shadow-xl duration-300 ease-in hover:scale-105'>
+            <div className='grid grid-cols-2 items-center justify-center gap-4'>
+              <div className='m-auto'>
+                <Image src={Javascript} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>JavaScript</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className='rounded-xl p-6 shadow-xl duration-300 ease-in hover:scale-105'>
+            <div className='grid grid-cols-2 items-center justify-center gap-4'>
+              <div className='m-auto'>
+                <Image src={Firebase} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Firebase</h3>
+              </div>
+            </div>
+          </div>
+          <div className='rounded-xl p-6 shadow-xl duration-300 ease-in hover:scale-105'>
+            <div className='grid grid-cols-2 items-center justify-center gap-4'>
+              <div className='m-auto'>
+                <Image src={Github} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Github</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className='rounded-xl p-6 shadow-xl duration-300 ease-in hover:scale-105'>
+            <div className='grid grid-cols-2 items-center justify-center gap-4'>
+              <div className='m-auto'>
+                <Image src={NodeJS} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Node</h3>
               </div>
             </div>
           </div>
