@@ -30,7 +30,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/samurai71'
               target='_blank'
               rel='noreferrer'
             >
