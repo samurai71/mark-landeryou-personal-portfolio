@@ -62,7 +62,7 @@ const Navbar = () => {
               alt='/'
               width='125'
               height='50'
-              className='cursor-pointer'
+              className='cursor-pointer duration-200 ease-in hover:scale-110'
             />
           </a>
         </Link>
@@ -71,19 +71,19 @@ const Navbar = () => {
             style={{ color: `${linkColor}` }}
             className='hidden font-serif md:flex'
           >
-            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
+            <li className='text-md ml-10 uppercase text-red-600 duration-200 ease-in-out hover:scale-110 hover:border-b hover:text-blue-500'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
+            <li className='text-md ml-10 uppercase text-red-600 duration-200 ease-in-out hover:scale-110 hover:border-b hover:text-blue-500'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
+            <li className='text-md ml-10 uppercase text-red-600 duration-200 ease-in-out hover:scale-110 hover:border-b hover:text-blue-500'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
+            <li className='text-md ml-10 uppercase text-red-600 duration-200 ease-in-out hover:scale-110 hover:border-b hover:text-blue-500'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
+            <li className='text-md ml-10 uppercase text-red-600 duration-200 ease-in-out hover:scale-110 hover:border-b hover:text-blue-500'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
