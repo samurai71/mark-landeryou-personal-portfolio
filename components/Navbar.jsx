@@ -1,11 +1,11 @@
-//import Image from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
-//import NavLogo from '../public/assets/navLogo.png'
+import NavLogo from '../public/assets/navLogo.png';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -54,8 +54,8 @@ const Navbar = () => {
           : 'fixed z-[100] h-20 w-full'
       }
     >
-      <div className='flex h-full w-full items-center justify-center px-2 2xl:px-16'>
-        {/* <Link href='/'>
+      <div className='flex h-full w-full items-center justify-between px-2 2xl:px-16'>
+        <Link href='/'>
           <a>
             <Image
               src={NavLogo}
@@ -65,25 +65,25 @@ const Navbar = () => {
               className='cursor-pointer'
             />
           </a>
-        </Link> */}
-        <div>
+        </Link>
+        <div className='flex items-center justify-center pr-4'>
           <ul
             style={{ color: `${linkColor}` }}
             className='hidden font-serif md:flex'
           >
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            <li className='text-md ml-10 uppercase text-red-600 hover:border-b hover:text-blue-500'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -115,11 +115,11 @@ const Navbar = () => {
         >
           <div>
             <div className='flex w-full items-center justify-between'>
-              {/* <Link href='/'>
+              <Link href='/'>
                 <a>
                   <Image src={NavLogo} width='87' height='35' alt='/' />
                 </a>
-              </Link> */}
+              </Link>
               <div
                 onClick={handleNav}
                 className='cursor-pointer rounded-full p-3 shadow-lg shadow-gray-400'
@@ -136,34 +136,49 @@ const Navbar = () => {
           <div className='flex flex-col py-4'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='text-md py-4 font-serif text-red-600 hover:text-blue-500'
+                >
                   Home
                 </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='text-md py-4 font-serif text-red-600 hover:text-blue-500'
+                >
                   About
                 </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='text-md py-4 font-serif text-red-600 hover:text-blue-500'
+                >
                   Skills
                 </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='text-md py-4 font-serif text-red-600 hover:text-blue-500'
+                >
                   Projects
                 </li>
               </Link>
 
               <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li
+                  onClick={() => setNav(false)}
+                  className='text-md py-4 font-serif text-red-600 hover:text-blue-500'
+                >
                   Contact
                 </li>
               </Link>
             </ul>
             <div className='pt-4'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>
+              <p className='uppercase tracking-widest text-blue-700'>
                 Let&#39;s Connect
               </p>
               <div className='my-4 flex w-full items-center justify-between sm:w-[80%]'>
