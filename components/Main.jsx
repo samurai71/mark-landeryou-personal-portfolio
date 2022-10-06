@@ -8,7 +8,7 @@ const Main = () => {
     <div id='home' className='h-screen w-full text-center'>
       <div className='mx-auto flex h-full w-full max-w-[1240px] items-center justify-center p-2'>
         <div>
-          <p className='text-sm uppercase tracking-widest text-gray-600'>
+          <p className='text-sm uppercase italic tracking-widest text-red-600'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className='py-4 text-gray-700'>
@@ -21,7 +21,7 @@ const Main = () => {
           </p>
           <div className='m-auto flex max-w-[330px] items-center justify-between py-4'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/marklanderyou/'
               target='_blank'
               rel='noreferrer'
             >

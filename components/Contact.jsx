@@ -36,7 +36,7 @@ const Contact = () => {
                 <p className='pt-8 uppercase text-blue-600'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/marklanderyou/'
                     target='_blank'
                     rel='noreferrer'
                   >
