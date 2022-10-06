@@ -8,14 +8,14 @@ const Main = () => {
     <section id='home' className='h-screen w-full text-center'>
       <div className='mx-auto flex h-full w-full max-w-[1240px] items-center justify-center p-2'>
         <div>
-          <p className='text-md uppercase italic tracking-widest text-red-600'>
+          <p className='text-md font-[Bitter] uppercase italic tracking-widest text-red-600'>
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className='py-4 text-gray-700'>
             Hi, I&#39;m <span className='text-blue-600'> Mark</span>
           </h1>
           <h1 className='py-2 text-gray-700'>A Full Stack Web Developer</h1>
-          <p className='m-auto py-4 text-gray-600 sm:max-w-[70%]'>
+          <p className='m-auto py-4 font-[Bitter] text-gray-600 sm:max-w-[70%]'>
             I’m focused on building responsive web applications while
             continually learning back-end technologies.
           </p>

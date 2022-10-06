@@ -69,7 +69,7 @@ const Navbar = () => {
         <div className='flex items-center justify-center pr-4'>
           <ul
             style={{ color: `${linkColor}` }}
-            className='hidden font-serif md:flex'
+            className='hidden font-[Bitter] md:flex'
           >
             <li className='text-md ml-10 uppercase text-red-600 duration-200 ease-in-out hover:scale-110 hover:border-b hover:text-blue-500'>
               <Link href='/'>Home</Link>
