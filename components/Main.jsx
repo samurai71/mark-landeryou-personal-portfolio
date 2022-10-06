@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
   return (
-    <div id='home' className='h-screen w-full text-center'>
+    <section id='home' className='h-screen w-full text-center'>
       <div className='mx-auto flex h-full w-full max-w-[1240px] items-center justify-center p-2'>
         <div>
           <p className='text-sm uppercase italic tracking-widest text-red-600'>
@@ -46,7 +46,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
