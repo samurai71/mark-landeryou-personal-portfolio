@@ -7,7 +7,7 @@ import React from 'react';
 import FrontEnd from '../components/skills/frontend';
 import BackEnd from '../components/skills/backend';
 
-import FullStack from './skills/fullstack';
+import FullStack from '../components/skills/fullstack';
 
 const Skills = () => {
   return (
