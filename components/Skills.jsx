@@ -20,6 +20,7 @@ import WordpressCMS from '../public/assets/skills/wordpress-svgrepo-com.svg';
 import Php from '../public/assets/skills/php-svgrepo-com.svg';
 import Python from '../public/assets/skills/python-svgrepo-com.svg';
 import FoundationCSS from '../public/assets/skills/foundation-svgrepo-com.svg';
+//import FrontEnd from '../components/skills/frontend';
 //import PostCSS from '../public/assets/skills/postcss-svgrepo-com.svg';
 //import Illustrator from '../public/assets/skills/adobe-illustrator-cc-logo-svgrepo-com.svg';
 //import Photoshop from '../public/assets/skills/adobe-photoshop-cs6-logo-svgrepo-com.svg';
@@ -38,7 +39,7 @@ const Skills = () => {
           </p>
           <h2 className='py-4'>What I Can Do</h2>
         </div>
-
+        {/* <FrontEnd /> */}
         {/* <h3 className='py-4'>Front-End Skills</h3> */}
         <div className='grid grid-cols-2 gap-8 lg:grid-cols-4'>
           <div className='rounded-xl p-6 shadow-xl duration-300 ease-in hover:scale-105'>
