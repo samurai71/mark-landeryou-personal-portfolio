@@ -1,13 +1,9 @@
-import Image from 'next/image';
+//import Image from 'next/image';
 import React from 'react';
-
-//import FrontEnd from '../components/skills/frontend';
-
-//import AWS from '../public/assets/skills/aws.png';
 import FrontEnd from '../components/skills/frontend';
 import BackEnd from '../components/skills/backend';
 
-import FullStack from '../components/skills/fullstack';
+//import FullStack from '../components/skills/fullstack';
 
 const Skills = () => {
   return (
@@ -21,7 +17,7 @@ const Skills = () => {
         </div>
         <FrontEnd />
         <BackEnd />
-        <FullStack />
+        {/* <FullStack /> */}
       </div>
     </section>
   );
