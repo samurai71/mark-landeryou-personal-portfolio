@@ -45,7 +45,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/samurai71'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -62,7 +62,7 @@ const Contact = () => {
           <div className='col-span-3 h-auto w-full rounded-xl shadow-xl shadow-gray-400 lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/dbbd0a26-acb6-4fc1-a87f-b940cd117547'
                 method='POST'
                 encType='multipart/form-data'
               >

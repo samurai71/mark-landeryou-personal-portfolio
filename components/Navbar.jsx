@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+//import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/navLogo.png';
 
@@ -69,7 +69,7 @@ const Navbar = () => {
         <div className='flex items-center justify-center pr-4'>
           <ul
             style={{ color: `${linkColor}` }}
-            className='hidden font-serif md:flex'
+            className='hidden font-[Bitter] md:flex'
           >
             <li className='text-md ml-10 uppercase text-red-600 duration-200 ease-in-out hover:scale-110 hover:border-b hover:text-blue-500'>
               <Link href='/'>Home</Link>
@@ -192,7 +192,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/samurai71'
                   target='_blank'
                   rel='noreferrer'
                 >
